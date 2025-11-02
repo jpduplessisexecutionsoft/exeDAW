@@ -10,7 +10,7 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|x64">
-      <Configuration>Debug</Configuration>
+   <Configuration>Debug</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Release|x64">
@@ -34,10 +34,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
+ <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+ <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -61,7 +61,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -74,13 +74,13 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_GLFW_WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+ <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_GLFW_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>external\imgui;external\imgui\backends;external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+  <SubSystem>Windows</SubSystem>
+<GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -90,14 +90,14 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_GLFW_WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_GLFW_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>external\imgui;external\imgui\backends;external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
+  <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -106,7 +106,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_GLFW_WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_GLFW_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>external\imgui;external\imgui\backends;external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -120,16 +120,16 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
+    <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_GLFW_WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_GLFW_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>external\imgui;external\imgui\backends;external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
+    <EnableCOMDATFolding>true</EnableCOMDATFolding>
+ <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -139,7 +139,7 @@
     <ClCompile Include="DAWApplication.cpp" />
     <ClCompile Include="DAWImGuiWindow.cpp" />
     <ClCompile Include="DAWTheme.cpp" />
-    <ClCompile Include="DAWWindow.cpp" />
+  <ClCompile Include="DAWWindow.cpp" />
     <ClCompile Include="exeDAW.cpp" />
     <ClCompile Include="ModernUI.cpp" />
     <ClCompile Include="ModernUILayout.cpp" />
@@ -147,19 +147,19 @@
     <ClCompile Include="SequencerEngine.cpp" />
     <ClCompile Include="SequencerModel.cpp" />
     <ClCompile Include="SequencerView.cpp" />
-    <ClCompile Include="TransportControl.cpp" />
+<ClCompile Include="TransportControl.cpp" />
     <ClCompile Include="external\imgui\imgui.cpp" />
-    <ClCompile Include="external\imgui\imgui_draw.cpp" />
+<ClCompile Include="external\imgui\imgui_draw.cpp" />
     <ClCompile Include="external\imgui\imgui_tables.cpp" />
     <ClCompile Include="external\imgui\imgui_widgets.cpp" />
     <ClCompile Include="external\imgui\backends\imgui_impl_glfw.cpp" />
     <ClCompile Include="external\imgui\backends\imgui_impl_opengl3.cpp" />
-    <ClCompile Include="external\glfw\src\context.c" />
+  <ClCompile Include="external\glfw\src\context.c" />
     <ClCompile Include="external\glfw\src\init.c" />
     <ClCompile Include="external\glfw\src\input.c" />
     <ClCompile Include="external\glfw\src\monitor.c" />
     <ClCompile Include="external\glfw\src\platform.c" />
-    <ClCompile Include="external\glfw\src\vulkan.c" />
+  <ClCompile Include="external\glfw\src\vulkan.c" />
     <ClCompile Include="external\glfw\src\window.c" />
     <ClCompile Include="external\glfw\src\egl_context.c" />
     <ClCompile Include="external\glfw\src\osmesa_context.c" />
@@ -175,7 +175,6 @@
     <ClCompile Include="external\glfw\src\win32_thread.c" />
     <ClCompile Include="external\glfw\src\win32_window.c" />
     <ClCompile Include="external\glfw\src\wgl_context.c" />
-    <ClCompile Include="WaveformVisualizer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AudioPlayer.h" />
@@ -184,15 +183,13 @@
     <ClInclude Include="DAWTheme.h" />
     <ClInclude Include="DAWWindow.h" />
     <ClInclude Include="exeDAW.h" />
-    <ClInclude Include="external\glfw\src\win32_thread.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="GUIValidation.h" />
     <ClInclude Include="ModernUI.h" />
     <ClInclude Include="ModernUILayout.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SequencerChannel.h" />
     <ClInclude Include="SequencerEngine.h" />
-    <ClInclude Include="SequencerModel.h" />
+  <ClInclude Include="SequencerModel.h" />
     <ClInclude Include="SequencerView.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TransportControl.h" />
@@ -210,9 +207,8 @@
     <ClInclude Include="external\glfw\src\internal.h" />
     <ClInclude Include="external\glfw\src\platform.h" />
     <ClInclude Include="external\glfw\src\mappings.h" />
-    <ClInclude Include="external\glfw\src\null_platform.h" />
+ <ClInclude Include="external\glfw\src\null_platform.h" />
     <ClInclude Include="external\glfw\src\win32_platform.h" />
-    <ClInclude Include="WaveformVisualizer.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="exeDAW.rc" />
@@ -220,10 +216,6 @@
   <ItemGroup>
     <Image Include="exeDAW.ico" />
     <Image Include="small.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DEEP_DIVE_ANALYSIS.md" />
-    <None Include="GUI_VALIDATION_REPORT.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

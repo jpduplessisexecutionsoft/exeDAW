@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b4a5ec28-9c9e-4006-a8eb-eef74d3c51f8}</ProjectGuid>
+    <RootNamespace>exeDAW</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioPlayer.h" />
+    <ClInclude Include="DAWApplication.h" />
+    <ClInclude Include="DAWImGuiWindow.h" />
+    <ClInclude Include="DAWTheme.h" />
+    <ClInclude Include="DAWWindow.h" />
+    <ClInclude Include="exeDAW.h" />
+    <ClInclude Include="external\glfw\deps\getopt.h" />
+    <ClInclude Include="external\glfw\deps\glad\gl.h" />
+    <ClInclude Include="external\glfw\deps\glad\gles2.h" />
+    <ClInclude Include="external\glfw\deps\glad\vulkan.h" />
+    <ClInclude Include="external\glfw\deps\linmath.h" />
+    <ClInclude Include="external\glfw\deps\nuklear.h" />
+    <ClInclude Include="external\glfw\deps\nuklear_glfw_gl2.h" />
+    <ClInclude Include="external\glfw\deps\stb_image_write.h" />
+    <ClInclude Include="external\glfw\deps\tinycthread.h" />
+    <ClInclude Include="external\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="external\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="external\glfw\src\cocoa_joystick.h" />
+    <ClInclude Include="external\glfw\src\cocoa_platform.h" />
+    <ClInclude Include="external\glfw\src\cocoa_time.h" />
+    <ClInclude Include="external\glfw\src\internal.h" />
+    <ClInclude Include="external\glfw\src\linux_joystick.h" />
+    <ClInclude Include="external\glfw\src\mappings.h" />
+    <ClInclude Include="external\glfw\src\null_joystick.h" />
+    <ClInclude Include="external\glfw\src\null_platform.h" />
+    <ClInclude Include="external\glfw\src\platform.h" />
+    <ClInclude Include="external\glfw\src\posix_poll.h" />
+    <ClInclude Include="external\glfw\src\posix_thread.h" />
+    <ClInclude Include="external\glfw\src\posix_time.h" />
+    <ClInclude Include="external\glfw\src\win32_joystick.h" />
+    <ClInclude Include="external\glfw\src\win32_platform.h" />
+    <ClInclude Include="external\glfw\src\win32_thread.h" />
+    <ClInclude Include="external\glfw\src\win32_time.h" />
+    <ClInclude Include="external\glfw\src\wl_platform.h" />
+    <ClInclude Include="external\glfw\src\x11_platform.h" />
+    <ClInclude Include="external\glfw\src\xkb_unicode.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_allegro5.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_android.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_dx10.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_dx12.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_dx9.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_glfw.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_glut.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_metal.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_opengl2.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_osx.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_sdl2.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_sdl3.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_sdlgpu3.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_sdlgpu3_shaders.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_sdlrenderer2.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_sdlrenderer3.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_vulkan.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_wgpu.h" />
+    <ClInclude Include="external\imgui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="external\imgui\examples\example_allegro5\imconfig_allegro5.h" />
+    <ClInclude Include="external\imgui\examples\libs\emscripten\emscripten_mainloop_stub.h" />
+    <ClInclude Include="external\imgui\examples\libs\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="external\imgui\examples\libs\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="external\imgui\examples\libs\usynergy\uSynergy.h" />
+    <ClInclude Include="external\imgui\imconfig.h" />
+    <ClInclude Include="external\imgui\imgui.h" />
+    <ClInclude Include="external\imgui\imgui_internal.h" />
+    <ClInclude Include="external\imgui\imstb_rectpack.h" />
+    <ClInclude Include="external\imgui\imstb_textedit.h" />
+    <ClInclude Include="external\imgui\imstb_truetype.h" />
+    <ClInclude Include="external\imgui\misc\cpp\imgui_stdlib.h" />
+    <ClInclude Include="external\imgui\misc\freetype\imgui_freetype.h" />
+    <ClInclude Include="external\imgui\misc\single_file\imgui_single_file.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="ModernUI.h" />
+    <ClInclude Include="ModernUILayout.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SequencerChannel.h" />
+    <ClInclude Include="SequencerEngine.h" />
+    <ClInclude Include="SequencerModel.h" />
+    <ClInclude Include="SequencerView.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TransportControl.h" />
+    <ClInclude Include="WaveformVisualizer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioPlayer.cpp" />
+    <ClCompile Include="DAWApplication.cpp" />
+    <ClCompile Include="DAWImGuiWindow.cpp" />
+    <ClCompile Include="DAWTheme.cpp" />
+    <ClCompile Include="DAWWindow.cpp" />
+    <ClCompile Include="exeDAW.cpp" />
+    <ClCompile Include="external\glfw\deps\getopt.c" />
+    <ClCompile Include="external\glfw\deps\tinycthread.c" />
+    <ClCompile Include="external\glfw\examples\boing.c" />
+    <ClCompile Include="external\glfw\examples\gears.c" />
+    <ClCompile Include="external\glfw\examples\heightmap.c" />
+    <ClCompile Include="external\glfw\examples\offscreen.c" />
+    <ClCompile Include="external\glfw\examples\particles.c" />
+    <ClCompile Include="external\glfw\examples\sharing.c" />
+    <ClCompile Include="external\glfw\examples\splitview.c" />
+    <ClCompile Include="external\glfw\examples\triangle-opengl.c" />
+    <ClCompile Include="external\glfw\examples\triangle-opengles.c" />
+    <ClCompile Include="external\glfw\examples\wave.c" />
+    <ClCompile Include="external\glfw\examples\windows.c" />
+    <ClCompile Include="external\glfw\src\cocoa_time.c" />
+    <ClCompile Include="external\glfw\src\context.c" />
+    <ClCompile Include="external\glfw\src\egl_context.c" />
+    <ClCompile Include="external\glfw\src\glx_context.c" />
+    <ClCompile Include="external\glfw\src\init.c" />
+    <ClCompile Include="external\glfw\src\input.c" />
+    <ClCompile Include="external\glfw\src\linux_joystick.c" />
+    <ClCompile Include="external\glfw\src\monitor.c" />
+    <ClCompile Include="external\glfw\src\null_init.c" />
+    <ClCompile Include="external\glfw\src\null_joystick.c" />
+    <ClCompile Include="external\glfw\src\null_monitor.c" />
+    <ClCompile Include="external\glfw\src\null_window.c" />
+    <ClCompile Include="external\glfw\src\osmesa_context.c" />
+    <ClCompile Include="external\glfw\src\platform.c" />
+    <ClCompile Include="external\glfw\src\posix_module.c" />
+    <ClCompile Include="external\glfw\src\posix_poll.c" />
+    <ClCompile Include="external\glfw\src\posix_thread.c" />
+    <ClCompile Include="external\glfw\src\posix_time.c" />
+    <ClCompile Include="external\glfw\src\vulkan.c" />
+    <ClCompile Include="external\glfw\src\wgl_context.c" />
+    <ClCompile Include="external\glfw\src\win32_init.c" />
+    <ClCompile Include="external\glfw\src\win32_joystick.c" />
+    <ClCompile Include="external\glfw\src\win32_module.c" />
+    <ClCompile Include="external\glfw\src\win32_monitor.c" />
+    <ClCompile Include="external\glfw\src\win32_thread.c" />
+    <ClCompile Include="external\glfw\src\win32_time.c" />
+    <ClCompile Include="external\glfw\src\win32_window.c" />
+    <ClCompile Include="external\glfw\src\window.c" />
+    <ClCompile Include="external\glfw\src\wl_init.c" />
+    <ClCompile Include="external\glfw\src\wl_monitor.c" />
+    <ClCompile Include="external\glfw\src\wl_window.c" />
+    <ClCompile Include="external\glfw\src\x11_init.c" />
+    <ClCompile Include="external\glfw\src\x11_monitor.c" />
+    <ClCompile Include="external\glfw\src\x11_window.c" />
+    <ClCompile Include="external\glfw\src\xkb_unicode.c" />
+    <ClCompile Include="external\glfw\tests\allocator.c" />
+    <ClCompile Include="external\glfw\tests\clipboard.c" />
+    <ClCompile Include="external\glfw\tests\cursor.c" />
+    <ClCompile Include="external\glfw\tests\empty.c" />
+    <ClCompile Include="external\glfw\tests\events.c" />
+    <ClCompile Include="external\glfw\tests\gamma.c" />
+    <ClCompile Include="external\glfw\tests\glfwinfo.c" />
+    <ClCompile Include="external\glfw\tests\icon.c" />
+    <ClCompile Include="external\glfw\tests\iconify.c" />
+    <ClCompile Include="external\glfw\tests\inputlag.c" />
+    <ClCompile Include="external\glfw\tests\joysticks.c" />
+    <ClCompile Include="external\glfw\tests\monitors.c" />
+    <ClCompile Include="external\glfw\tests\msaa.c" />
+    <ClCompile Include="external\glfw\tests\reopen.c" />
+    <ClCompile Include="external\glfw\tests\tearing.c" />
+    <ClCompile Include="external\glfw\tests\threads.c" />
+    <ClCompile Include="external\glfw\tests\timeout.c" />
+    <ClCompile Include="external\glfw\tests\title.c" />
+    <ClCompile Include="external\glfw\tests\triangle-vulkan.c" />
+    <ClCompile Include="external\glfw\tests\window.c" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_allegro5.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_android.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_dx10.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_dx12.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_dx9.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_glut.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_opengl2.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_sdl2.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_sdl3.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_sdlgpu3.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_sdlrenderer2.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_sdlrenderer3.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_vulkan.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_wgpu.cpp" />
+    <ClCompile Include="external\imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="external\imgui\examples\example_allegro5\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_android_opengl3\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_glfw_opengl2\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_glfw_opengl3\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_glfw_vulkan\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_glfw_wgpu\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_glut_opengl2\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_null\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl2_directx11\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl2_opengl2\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl2_opengl3\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl2_sdlrenderer2\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl2_vulkan\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl2_wgpu\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl3_directx11\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl3_opengl3\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl3_sdlgpu3\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl3_sdlrenderer3\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl3_vulkan\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_sdl3_wgpu\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_win32_directx10\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_win32_directx11\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_win32_directx12\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_win32_directx9\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_win32_opengl3\main.cpp" />
+    <ClCompile Include="external\imgui\examples\example_win32_vulkan\main.cpp" />
+    <ClCompile Include="external\imgui\examples\libs\usynergy\uSynergy.c" />
+    <ClCompile Include="external\imgui\imgui.cpp" />
+    <ClCompile Include="external\imgui\imgui_demo.cpp" />
+    <ClCompile Include="external\imgui\imgui_draw.cpp" />
+    <ClCompile Include="external\imgui\imgui_tables.cpp" />
+    <ClCompile Include="external\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="external\imgui\misc\cpp\imgui_stdlib.cpp" />
+    <ClCompile Include="external\imgui\misc\fonts\binary_to_compressed_c.cpp" />
+    <ClCompile Include="external\imgui\misc\freetype\imgui_freetype.cpp" />
+    <ClCompile Include="ModernUI.cpp" />
+    <ClCompile Include="ModernUILayout.cpp" />
+    <ClCompile Include="SequencerChannel.cpp" />
+    <ClCompile Include="SequencerEngine.cpp" />
+    <ClCompile Include="SequencerModel.cpp" />
+    <ClCompile Include="SequencerView.cpp" />
+    <ClCompile Include="TransportControl.cpp" />
+    <ClCompile Include="WaveformVisualizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="exeDAW.rc" />
+    <ResourceCompile Include="external\glfw\examples\glfw.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="exeDAW.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="add_includes.bat" />
+    <None Include="API_REFERENCE.md" />
+    <None Include="clean_vcxproj.bat" />
+    <None Include="COMPILATION_FIXES_APPLIED.md" />
+    <None Include="COMPLETION_CHECKLIST.md" />
+    <None Include="COMPLETION_SUMMARY.md" />
+    <None Include="CRITICAL_ISSUE_ANALYSIS.md" />
+    <None Include="DAW_ARCHITECTURE.md" />
+    <None Include="DELIVERABLES.md" />
+    <None Include="DELIVERY_COMPLETE.md" />
+    <None Include="download_dependencies.ps1" />
+    <None Include="exeDAW_clean.vcxproj" />
+    <None Include="external\glfw\docs\footer.html" />
+    <None Include="external\glfw\docs\header.html" />
+    <None Include="external\imgui\examples\libs\emscripten\shell_minimal.html" />
+    <None Include="FIX_APPLIED.md" />
+    <None Include="fix_includes.bat" />
+    <None Include="fix_project.bat" />
+    <None Include="fix_vcxproj.ps1" />
+    <None Include="fix_vcxproj_v2.ps1" />
+    <None Include="GETTING_STARTED_MODERN_GUI.md" />
+    <None Include="GUI_DESIGN_SYSTEM.md" />
+    <None Include="GUI_LAYOUT.md" />
+    <None Include="IMGUI_QUICK_START.md" />
+    <None Include="IMGUI_REFACTOR_GUIDE.md" />
+    <None Include="IMGUI_REFACTOR_SUMMARY.md" />
+    <None Include="IMPLEMENTATION_SUMMARY.md" />
+    <None Include="INDEX.md" />
+    <None Include="install_dependencies.bat" />
+    <None Include="ISSUE_FIXED_EXPLANATION.md" />
+    <None Include="MASTER_INDEX.md" />
+    <None Include="MDI_IMPLEMENTATION_STATUS.md" />
+    <None Include="MDI_QUICK_REFERENCE.md" />
+    <None Include="MDI_WINDOWS_REFACTOR.md" />
+    <None Include="MODERN_GUI_OVERVIEW.md" />
+    <None Include="PROJECT_SUMMARY.md" />
+    <None Include="QUICK_REFERENCE.md" />
+    <None Include="QUICK_START.md" />
+    <None Include="README_DAW.md" />
+    <None Include="README_IMGUI_REFACTOR.md" />
+    <None Include="README_MDI_IMPLEMENTATION.md" />
+    <None Include="REFACTOR_COMPLETE.md" />
+    <None Include="RENDERING_FIX.md" />
+    <None Include="RENDERING_LOOP_COMPLETE.md" />
+    <None Include="SEQUENCER_COMPLETE_SUMMARY.md" />
+    <None Include="SEQUENCER_IMPLEMENTATION.md" />
+    <None Include="SEQUENCER_RESEARCH.md" />
+    <None Include="TRANSFORMATION_COMPLETE.md" />
+    <None Include="VISUAL_STUDIO_SETUP.md" />
+    <None Include="VISUAL_STYLE_GUIDE.md" />
+    <None Include="VISUAL_SUMMARY.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
