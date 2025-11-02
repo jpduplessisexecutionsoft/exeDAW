@@ -50,6 +50,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
                 "- OpenGL 3.3+ not supported by graphics driver\n"
                 "- GLFW initialization failed\n"
                 "- Insufficient graphics memory");
+            g_pDAWWindow.reset(); // Clean up before returning
             return 1;
         }
 
@@ -64,16 +65,20 @@ int APIENTRY WinMain(HINSTANCE hInstance,
             g_pDAWWindow->Render();
         }
 
+        // Explicit cleanup before exit
+        g_pDAWWindow.reset();
         return 0;
     }
     catch (const std::exception& e)
     {
         ReportError(std::string("An exception occurred: ") + e.what());
+        g_pDAWWindow.reset(); // Clean up on exception
         return 1;
     }
     catch (...)
     {
         ReportError("An unknown exception occurred");
+        g_pDAWWindow.reset(); // Clean up on unknown exception
         return 1;
     }
 }

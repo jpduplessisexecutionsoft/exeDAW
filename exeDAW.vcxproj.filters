@@ -66,58 +66,16 @@
     <ClInclude Include="DAWImGuiWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="external\glfw\deps\glad\gl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\deps\glad\gles2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\deps\glad\vulkan.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\deps\getopt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\deps\linmath.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\deps\nuklear.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\deps\nuklear_glfw_gl2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\deps\stb_image_write.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\deps\tinycthread.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="external\glfw\include\GLFW\glfw3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="external\glfw\include\GLFW\glfw3native.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="external\glfw\src\cocoa_joystick.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\cocoa_platform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\cocoa_time.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="external\glfw\src\internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="external\glfw\src\linux_joystick.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="external\glfw\src\mappings.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\null_joystick.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="external\glfw\src\null_platform.h">
@@ -126,124 +84,19 @@
     <ClInclude Include="external\glfw\src\platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="external\glfw\src\posix_poll.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\posix_thread.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\posix_time.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\win32_joystick.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="external\glfw\src\win32_platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="external\glfw\src\win32_thread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="external\glfw\src\win32_time.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\wl_platform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\x11_platform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\glfw\src\xkb_unicode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_allegro5.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_android.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_dx9.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_dx10.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_dx11.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_dx12.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="external\imgui\backends\imgui_impl_glfw.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_glut.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_metal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_opengl2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="external\imgui\backends\imgui_impl_opengl3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="external\imgui\backends\imgui_impl_opengl3_loader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_osx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_sdl2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_sdl3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_sdlgpu3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_sdlgpu3_shaders.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_sdlrenderer2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_sdlrenderer3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_vulkan.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_wgpu.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\backends\imgui_impl_win32.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\examples\example_allegro5\imconfig_allegro5.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\examples\libs\emscripten\emscripten_mainloop_stub.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\examples\libs\glfw\include\GLFW\glfw3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\examples\libs\glfw\include\GLFW\glfw3native.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\examples\libs\usynergy\uSynergy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\misc\cpp\imgui_stdlib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\misc\freetype\imgui_freetype.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="external\imgui\misc\single_file\imgui_single_file.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="external\imgui\imconfig.h">
@@ -262,6 +115,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="external\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIValidation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioTrack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -308,64 +167,16 @@
     <ClCompile Include="DAWImGuiWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="external\glfw\deps\getopt.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\deps\tinycthread.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\boing.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\gears.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\heightmap.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\offscreen.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\particles.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\sharing.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\splitview.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\triangle-opengl.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\triangle-opengles.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\wave.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\examples\windows.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\cocoa_time.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="external\glfw\src\context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="external\glfw\src\egl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="external\glfw\src\glx_context.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="external\glfw\src\init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="external\glfw\src\input.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\linux_joystick.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="external\glfw\src\monitor.c">
@@ -387,18 +198,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="external\glfw\src\platform.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\posix_module.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\posix_poll.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\posix_thread.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\posix_time.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="external\glfw\src\vulkan.c">
@@ -431,235 +230,13 @@
     <ClCompile Include="external\glfw\src\window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="external\glfw\src\wl_init.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\wl_monitor.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\wl_window.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\x11_init.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\x11_monitor.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\x11_window.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\src\xkb_unicode.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\allocator.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\clipboard.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\cursor.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\empty.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\events.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\gamma.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\glfwinfo.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\icon.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\iconify.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\inputlag.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\joysticks.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\monitors.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\msaa.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\reopen.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\tearing.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\threads.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\timeout.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\title.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\triangle-vulkan.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\glfw\tests\window.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_allegro5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_android.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_dx9.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_dx10.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_dx11.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_dx12.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="external\imgui\backends\imgui_impl_glfw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_glut.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_opengl2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="external\imgui\backends\imgui_impl_opengl3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_sdl2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_sdl3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_sdlgpu3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_sdlrenderer2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_sdlrenderer3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_vulkan.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_wgpu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\backends\imgui_impl_win32.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_allegro5\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_android_opengl3\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_glfw_opengl2\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_glfw_opengl3\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_glfw_vulkan\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_glfw_wgpu\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_glut_opengl2\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_null\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl2_directx11\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl2_opengl2\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl2_opengl3\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl2_sdlrenderer2\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl2_vulkan\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl2_wgpu\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl3_directx11\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl3_opengl3\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl3_sdlgpu3\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl3_sdlrenderer3\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl3_vulkan\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_sdl3_wgpu\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_win32_directx9\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_win32_directx10\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_win32_directx11\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_win32_directx12\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_win32_opengl3\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\example_win32_vulkan\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\examples\libs\usynergy\uSynergy.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\misc\cpp\imgui_stdlib.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\misc\fonts\binary_to_compressed_c.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\misc\freetype\imgui_freetype.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="external\imgui\imgui.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="external\imgui\imgui_demo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="external\imgui\imgui_draw.cpp">
@@ -671,12 +248,12 @@
     <ClCompile Include="external\imgui\imgui_widgets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AudioTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="exeDAW.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-    <ResourceCompile Include="external\glfw\examples\glfw.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -689,66 +266,8 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="DAW_ARCHITECTURE.md" />
-    <None Include="QUICK_START.md" />
-    <None Include="API_REFERENCE.md" />
-    <None Include="README_DAW.md" />
-    <None Include="IMPLEMENTATION_SUMMARY.md" />
-    <None Include="GUI_LAYOUT.md" />
-    <None Include="PROJECT_SUMMARY.md" />
-    <None Include="DELIVERABLES.md" />
-    <None Include="QUICK_REFERENCE.md" />
-    <None Include="CRITICAL_ISSUE_ANALYSIS.md" />
-    <None Include="FIX_APPLIED.md" />
-    <None Include="GUI_DESIGN_SYSTEM.md" />
-    <None Include="VISUAL_STYLE_GUIDE.md" />
-    <None Include="MODERN_GUI_OVERVIEW.md" />
-    <None Include="GETTING_STARTED_MODERN_GUI.md" />
-    <None Include="TRANSFORMATION_COMPLETE.md" />
-    <None Include="COMPILATION_FIXES_APPLIED.md" />
-    <None Include="SEQUENCER_RESEARCH.md" />
-    <None Include="SEQUENCER_IMPLEMENTATION.md" />
-    <None Include="SEQUENCER_COMPLETE_SUMMARY.md" />
-    <None Include="MDI_WINDOWS_REFACTOR.md" />
-    <None Include="MDI_QUICK_REFERENCE.md" />
-    <None Include="MDI_IMPLEMENTATION_STATUS.md" />
-    <None Include="README_MDI_IMPLEMENTATION.md" />
-    <None Include="COMPLETION_CHECKLIST.md" />
-    <None Include="RENDERING_FIX.md" />
-    <None Include="RENDERING_LOOP_COMPLETE.md" />
-    <None Include="ISSUE_FIXED_EXPLANATION.md" />
-    <None Include="IMGUI_REFACTOR_GUIDE.md" />
-    <None Include="install_dependencies.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="VISUAL_STUDIO_SETUP.md" />
-    <None Include="IMGUI_REFACTOR_SUMMARY.md" />
-    <None Include="IMGUI_QUICK_START.md" />
-    <None Include="README_IMGUI_REFACTOR.md" />
-    <None Include="REFACTOR_COMPLETE.md" />
-    <None Include="INDEX.md" />
-    <None Include="VISUAL_SUMMARY.md" />
-    <None Include="COMPLETION_SUMMARY.md" />
-    <None Include="MASTER_INDEX.md" />
-    <None Include="DELIVERY_COMPLETE.md" />
-    <None Include="external\glfw\docs\footer.html" />
-    <None Include="external\glfw\docs\header.html" />
-    <None Include="external\imgui\examples\libs\emscripten\shell_minimal.html" />
-    <None Include="fix_vcxproj.ps1" />
-    <None Include="fix_vcxproj_v2.ps1" />
-    <None Include="download_dependencies.ps1" />
-    <None Include="add_includes.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="fix_includes.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="clean_vcxproj.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="fix_project.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="exeDAW_clean.vcxproj" />
+    <None Include="DEEP_DIVE_ANALYSIS.md" />
+    <None Include="GUI_VALIDATION_REPORT.md" />
+    <None Include="IMGUI_INTEGRATION_COMPLETE.md" />
   </ItemGroup>
 </Project>

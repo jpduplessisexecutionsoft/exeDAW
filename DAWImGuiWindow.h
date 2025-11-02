@@ -5,18 +5,25 @@
 #include <functional>
 #include <string>
 
-// Forward declarations
-struct ImGuiContext;
+// GLFW and OpenGL
+#include <GLFW/glfw3.h>
 
+// ImGui
+#include "imgui.h"
+#include "backends/imgui_impl_glfw.h"
+#include "backends/imgui_impl_opengl3.h"
+
+// Forward declarations
 class DAWApplication;
 class SequencerEngine;
+class AudioTrack;
 
 // Main application window using ImGui
 class DAWImGuiWindow
 {
 public:
     DAWImGuiWindow();
-  ~DAWImGuiWindow();
+    ~DAWImGuiWindow();
 
     // Window lifecycle
     bool Create(const char* title, int width, int height);
@@ -34,26 +41,36 @@ private:
     // Core application
     std::shared_ptr<DAWApplication> daw_;
     std::shared_ptr<SequencerEngine> sequencer_;
+    
+    // Audio tracks
+  std::vector<std::shared_ptr<AudioTrack>> audioTracks_;
+    int selectedTrackIndex_;
 
     // Window state
     bool isRunning_ = true;
     int windowWidth_ = 1600;
     int windowHeight_ = 1000;
+    std::string windowTitle_;
 
-    // ImGui context
-    ImGuiContext* imguiContext_ = nullptr;
+    // GLFW window
+  GLFWwindow* glfwWindow_ = nullptr;
+    bool glfwInitialized_ = false;
 
-// UI state
+    // UI state
     struct UIState
     {
-   bool showMenuBar = true;
-bool showTransport = true;
+        bool showMenuBar = true;
+ bool showTransport = true;
         bool showSequencer = true;
-        bool showInspector = true;
+  bool showInspector = true;
         bool showMixer = false;
         bool showBrowser = false;
- bool showProperties = false;
+        bool showProperties = false;
         bool showAbout = false;
+      
+        // File dialog state
+        bool showFileDialog = false;
+ char filePathBuffer[512] = "";
     } uiState_;
 
     // UI rendering methods
@@ -63,20 +80,21 @@ bool showTransport = true;
     void DrawInspector();
     void DrawMixer();
     void DrawBrowser();
-    void DrawProperties();
+  void DrawProperties();
     void DrawAbout();
+    void DrawFileDialog();
 
     // Menu handlers
     void OnFileNew();
     void OnFileOpen();
     void OnFileSave();
- void OnFileSaveAs();
-    void OnFileExit();
+    void OnFileSaveAs();
+  void OnFileExit();
     void OnEditUndo();
     void OnEditRedo();
     void OnEditCut();
-    void OnEditCopy();
- void OnEditPaste();
+ void OnEditCopy();
+    void OnEditPaste();
     void OnEditDelete();
     void OnEditSelectAll();
     void OnHelpAbout();
@@ -87,6 +105,11 @@ bool showTransport = true;
     void OnStopClick();
     void OnRecordClick();
     void OnMetronomeClick();
+    
+    // Track management
+    void OnAddTrack();
+    void OnLoadAudio();
+ void OnDeleteTrack();
 
     // Helper methods
     void SetupImGui();
